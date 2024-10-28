@@ -1,0 +1,557 @@
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large;
+    background-image: url('background3.png');
+    background-size: 100%;
+}
+
+
+.heads{
+    text-align: right;
+    padding: 20px;
+    color: white;
+}
+
+span{
+    margin: 50px;
+}
+
+.hello{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    height: 250px;
+    width: 700px;
+    margin-top: 260px;
+    margin-left: 160px;
+    line-height: 0%;
+}
+
+.hlo{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 12px 12px 12px 0px;
+    background-color: rgb(119, 119, 189);
+    width: 160px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.name{
+    font-size: 80px;
+}
+
+.name:hover{
+    transform: scale(1.1);
+}
+
+.desig{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.profile{
+    position: absolute;
+    left: 1200px;
+    top: 220px;
+    
+}
+
+#dp{
+    border-radius: 50%;
+    border: 1px solid;
+    border-color:rgb(71, 70, 70);
+    border-width: 20px;
+    box-shadow: 0 0 0 20px rgb(41, 40, 40);
+}
+
+.icons{
+    margin-left: 160px;
+    margin-top: 60px;
+    
+}
+
+#icon{
+    margin: 10px;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+}
+
+.about{
+    color: white;
+    margin-top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.AboutContainer{
+    color: white;
+    align-items: center;
+}
+
+.AboutPara1{
+    display: inline-block;
+    width: 400px;
+    text-align: justify;
+    margin-left: 200px;
+    line-height: 30px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.AboutPara1:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.AboutPara2{
+    display: inline-block;
+    width: 350px;
+    text-align: justify;
+    margin-left: 100px;
+    line-height: 30px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.AboutPara2:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.AboutPara3{
+    display: inline-block;
+    width: 460px;
+    text-align: justify;
+    margin-left: 100px;
+    line-height: 30px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.AboutPara3:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.BioContainer{
+    align-items: center;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 600px;
+    height: 320px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(36, 35, 36);
+}
+
+.BioContainer:hover{
+    background-color: aquamarine;
+    opacity: 0.5;
+    color: black;
+}
+
+.detail{
+    font-size: 30px;
+}
+
+.bio1{
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.bio2{
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+.Education{
+    color: white;
+}
+
+.EduHead{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.tenth{
+    border: 1px solid;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.tenth:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.hse{
+    border: 1px solid;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 300px;
+}
+
+.hse:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.diploma{
+    border: 1px solid;
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.diploma:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.Experience{
+    color: white;
+}
+
+.ExpHead{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.internship{
+    border: 1px solid;
+    width: 500px;
+    height: 270px;
+    padding: 30px;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.internship:hover{
+    background-color: cyan;
+    opacity: 0.6;
+    color: black;
+}
+
+.M2Img{
+    width: 220px;
+    height: 60px;
+}
+
+.apprenticeship{
+    border: 1px solid;
+    width: 650px;
+    height: 280px;
+    padding: 30px;
+    border-radius: 50px;
+    margin-left: 900px;
+    margin-top: 30px;
+}
+
+.apprenticeship:hover{
+    background-color: cyan;
+    opacity: 0.6;
+    color: black;
+}
+
+.MilmaImg{
+    width: 100px;
+    height: 50px;
+}
+
+.Projects{
+    color: white;
+}
+
+.ProjHead{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.minorproj{
+    border: 1px solid;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.minorproj:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.majorproj{
+    border: 1px solid;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.majorproj:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.HobbiesHead{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hobbies{
+    display: inline-block;
+    margin: 100px;
+    padding: 50px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+.BookImg{
+    width: 100px;
+    height: 100px;
+}
+
+.DrawImg{
+    width: 100px;
+    height: 100px;
+}
+
+.ArtImg{
+    width: 100px;
+    height: 100px;
+}
+
+.CodeImg{
+    width: 100px;
+    height: 100px;
+}
+
+.Skills{
+    color: white;
+}
+
+.SkillsHead{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skill1{
+    display: inline-block;
+    margin: 50px;
+
+}
+
+.skill2{
+    display: inline-block;
+    margin: 50px;
+}
+
+.skill3{
+    display: inline-block;
+    margin: 50px;
+}
+
+.HtmlImg{
+    width: 100px;
+    height: 100px;
+}
+
+.HtmlImg:hover{
+    transform: scale(1.1);
+}
+
+.CssImg{
+    width: 100px;
+    height: 100px;
+}
+
+.CssImg:hover{
+    transform: scale(1.1);
+}
+
+.JsImg{
+    width: 100px;
+    height: 100px;
+}
+
+.JsImg:hover{
+    transform: scale(1.1);
+}
+
+.CImg{
+    width: 100px;
+    height: 100px;
+}
+
+.CImg:hover{
+    transform: scale(1.1);
+}
+
+.CppImg{
+    width: 100px;
+    height: 100px;
+}
+
+.CppImg:hover{
+    transform: scale(1.1);
+}
+
+.JavaImg{
+    width: 100px;
+    height: 100px;
+}
+
+.JavaImg:hover{
+    transform: scale(1.1);
+}
+
+.PythonImg{
+    width: 100px;
+    height: 100px;
+}
+
+.PythonImg:hover{
+    transform: scale(1.1);
+}
+
+.SqlImg{
+    width: 150px;
+    height: 100px;
+}
+
+.SqlImg:hover{
+    transform: scale(1.1);
+}
+
+.Contacts{
+    color: white;
+}
+
+.ContactsHead{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.LocImg{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.MailImg{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.PhoneImg{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.location{
+    margin-left: 700px;
+    border: 1px solid;
+    width: 490px;
+    border-radius: 30px;
+    margin-top: 120px;
+}
+
+.location:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.mail{
+    margin-left: 700px;
+    border: 1px solid;
+    width: 490px;
+    border-radius: 30px;
+}
+
+.mail:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.phone{
+    margin-left: 700px;
+    border: 1px solid;
+    width: 490px;
+    border-radius: 30px;
+}
+
+.phone:hover{
+    background-color: cyan;
+    opacity: 0.5;
+    color: black;
+}
+
+.info1{
+    display: inline-block;
+}
+
+.info2{
+    display: inline-block;
+    margin: 70px;
+}
